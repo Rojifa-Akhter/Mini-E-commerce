@@ -16,11 +16,11 @@
 - Postman
 
 ## API Endpoints
-- POST /api/register
-- POST /api/login
-- GET /api/products
-- POST /api/products (Admin)
-- POST /api/orders
+- POST /api/register - http://127.0.0.1:8000/api/register
+- POST /api/login - http://127.0.0.1:8000/api/login
+- GET /api/products - http://127.0.0.1:8000/api/products?search=Generic Fresh Soap
+- POST /api/products (Admin) - http://127.0.0.1:8000/api/products
+- POST /api/orders - http://127.0.0.1:8000/api/orders
 
 ## Authentication
 Use Bearer Token from login/register responses.
